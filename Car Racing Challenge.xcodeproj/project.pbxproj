@@ -590,7 +590,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				ONLY_ACTIVE_ARCH = NO;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.alexongarato.games.Car-Racing-Challenge.test";
+				PRODUCT_BUNDLE_IDENTIFIER = com.twokingstudio.carracing.100;
 				PRODUCT_NAME = "Car Racing";
 				PROVISIONING_PROFILE = "";
 				SCAN_ALL_SOURCE_FILES_FOR_INCLUDES = NO;
@@ -615,7 +615,7 @@
 				INFOPLIST_FILE = "Car Racing Challenge/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.alexongarato.games.Car-Racing-Challenge.test";
+				PRODUCT_BUNDLE_IDENTIFIER = com.twokingstudio.carracing.100;
 				PRODUCT_NAME = "Car Racing";
 				PROVISIONING_PROFILE = "";
 				SCAN_ALL_SOURCE_FILES_FOR_INCLUDES = NO;
