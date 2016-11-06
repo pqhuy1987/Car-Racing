@@ -214,20 +214,20 @@ class MenuView: AbstractView, ADBannerViewDelegate
     
     func updateLoaderText()
     {
-        print("update loader text");
-        if(!PurchaseController.getInstance().hasPurchased() && !ConnectivityHelper.isReachable())
-        {
-            _adLoader.text = "(FREE VERSION) AVAILABLE ONLY WHILE ONLINE.";
-        }
-        else
-        {
-            _adLoader.text = "(FREE VERSION) LOADING ADVERTISEMENT...";
-        }
-        
-        _adLoader.font = Fonts.LightFont(FontSize.Small);
-        _adLoader.sizeToFit();
-        _adLoader.center.x = self.center.x;
-        _adLoader.y = self.height - 90;
+//        print("update loader text");
+//        if(!PurchaseController.getInstance().hasPurchased() && !ConnectivityHelper.isReachable())
+//        {
+//            _adLoader.text = "(FREE VERSION) AVAILABLE ONLY WHILE ONLINE.";
+//        }
+//        else
+//        {
+//            _adLoader.text = "(FREE VERSION) LOADING ADVERTISEMENT...";
+//        }
+//        
+//        _adLoader.font = Fonts.LightFont(FontSize.Small);
+//        _adLoader.sizeToFit();
+//        _adLoader.center.x = self.center.x;
+//        _adLoader.y = self.height - 90;
     }
     
     func hideAdLoader()
@@ -511,7 +511,7 @@ class MenuView: AbstractView, ADBannerViewDelegate
         else
         {
             self.buildBanner();
-            _showActionsTimer = Utils.delayedCall(7, target: self, selector: #selector(MenuView.showActions), repeats: false);
+            _showActionsTimer = Utils.delayedCall(0.1, target: self, selector: #selector(MenuView.showActions), repeats: false);
         }
         
         super.present(completion);
