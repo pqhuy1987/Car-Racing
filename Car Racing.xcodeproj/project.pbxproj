@@ -65,7 +65,6 @@
 		DB9E31801AD4D78C00C27087 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB9E317E1AD4D77500C27087 /* Social.framework */; };
 		DB9E31841AD4DFB800C27087 /* Twitter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB9E31821AD4DFB200C27087 /* Twitter.framework */; };
 		DB9E31871AD4E1B400C27087 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB9E31851AD4E1AE00C27087 /* Accounts.framework */; };
-		DB9E31891AD4E2EE00C27087 /* export_icon_180.png in Resources */ = {isa = PBXBuildFile; fileRef = DB9E31881AD4E2EE00C27087 /* export_icon_180.png */; };
 		DBB20A4B1ABE3D1C0050AA36 /* GameStatusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBB20A4A1ABE3D1C0050AA36 /* GameStatusView.swift */; };
 		DBB20A4D1ABE5BA20050AA36 /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBB20A4C1ABE5BA20050AA36 /* GameKit.framework */; };
 		DBCA18BF1AE0C3BA008E93A9 /* TouchAreas.png in Resources */ = {isa = PBXBuildFile; fileRef = DBCA18BE1AE0C3BA008E93A9 /* TouchAreas.png */; };
@@ -136,7 +135,6 @@
 		DB9E317E1AD4D77500C27087 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
 		DB9E31821AD4DFB200C27087 /* Twitter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Twitter.framework; path = System/Library/Frameworks/Twitter.framework; sourceTree = SDKROOT; };
 		DB9E31851AD4E1AE00C27087 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
-		DB9E31881AD4E2EE00C27087 /* export_icon_180.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = export_icon_180.png; path = Images.xcassets/AppIcon.appiconset/export_icon_180.png; sourceTree = "<group>"; };
 		DBB20A4A1ABE3D1C0050AA36 /* GameStatusView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameStatusView.swift; sourceTree = "<group>"; };
 		DBB20A4C1ABE5BA20050AA36 /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
 		DBCA18BE1AE0C3BA008E93A9 /* TouchAreas.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = TouchAreas.png; path = Images/TouchAreas.png; sourceTree = "<group>"; };
@@ -311,7 +309,6 @@
 			children = (
 				DB602CBF1CB36D7E00791F1C /* ipad.png */,
 				DBCA18BE1AE0C3BA008E93A9 /* TouchAreas.png */,
-				DB9E31881AD4E2EE00C27087 /* export_icon_180.png */,
 				DB3D62601ACE0B4B001BC9D9 /* ConfigIcon.png */,
 				DBD63E301AC7669100F3A3C3 /* Instructions.png */,
 			);
@@ -321,9 +318,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		DB2E84361AAD338D0009E321 /* Car Racing Challenge */ = {
+		DB2E84361AAD338D0009E321 /* Car Racing */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DB2E845A1AAD338E0009E321 /* Build configuration list for PBXNativeTarget "Car Racing Challenge" */;
+			buildConfigurationList = DB2E845A1AAD338E0009E321 /* Build configuration list for PBXNativeTarget "Car Racing" */;
 			buildPhases = (
 				DB2E84331AAD338D0009E321 /* Sources */,
 				DB2E84341AAD338D0009E321 /* Frameworks */,
@@ -334,7 +331,7 @@
 			);
 			dependencies = (
 			);
-			name = "Car Racing Challenge";
+			name = "Car Racing";
 			productName = "Car Racing Chellenge";
 			productReference = DB2E84371AAD338D0009E321 /* Car Racing.app */;
 			productType = "com.apple.product-type.application";
@@ -364,7 +361,7 @@
 					};
 				};
 			};
-			buildConfigurationList = DB2E84321AAD338D0009E321 /* Build configuration list for PBXProject "Car Racing Challenge" */;
+			buildConfigurationList = DB2E84321AAD338D0009E321 /* Build configuration list for PBXProject "Car Racing" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -377,7 +374,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				DB2E84361AAD338D0009E321 /* Car Racing Challenge */,
+				DB2E84361AAD338D0009E321 /* Car Racing */,
 			);
 		};
 /* End PBXProject section */
@@ -403,7 +400,6 @@
 				DB384C141AC0D86C00C2BB32 /* vel_4.wav in Resources */,
 				DB3D62651ACE4A0F001BC9D9 /* LCDMono2Bold.ttf in Resources */,
 				DB3D62611ACE0B4B001BC9D9 /* ConfigIcon.png in Resources */,
-				DB9E31891AD4E2EE00C27087 /* export_icon_180.png in Resources */,
 				DB384C0E1AC0D86C00C2BB32 /* Randomize.wav in Resources */,
 				DB384C0F1AC0D86C00C2BB32 /* menu_open.wav in Resources */,
 				DB384C101AC0D86C00C2BB32 /* vel_0.wav in Resources */,
@@ -628,7 +624,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		DB2E84321AAD338D0009E321 /* Build configuration list for PBXProject "Car Racing Challenge" */ = {
+		DB2E84321AAD338D0009E321 /* Build configuration list for PBXProject "Car Racing" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DB2E84581AAD338E0009E321 /* Debug */,
@@ -637,7 +633,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DB2E845A1AAD338E0009E321 /* Build configuration list for PBXNativeTarget "Car Racing Challenge" */ = {
+		DB2E845A1AAD338E0009E321 /* Build configuration list for PBXNativeTarget "Car Racing" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DB2E845B1AAD338E0009E321 /* Debug */,

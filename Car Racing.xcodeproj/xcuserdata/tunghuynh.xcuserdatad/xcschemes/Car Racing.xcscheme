@@ -16,8 +16,8 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "DB2E84361AAD338D0009E321"
                BuildableName = "Car Racing.app"
-               BlueprintName = "Car Racing Challenge"
-               ReferencedContainer = "container:Car Racing Challenge.xcodeproj">
+               BlueprintName = "Car Racing"
+               ReferencedContainer = "container:Car Racing.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -34,8 +34,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "DB2E84361AAD338D0009E321"
             BuildableName = "Car Racing.app"
-            BlueprintName = "Car Racing Challenge"
-            ReferencedContainer = "container:Car Racing Challenge.xcodeproj">
+            BlueprintName = "Car Racing"
+            ReferencedContainer = "container:Car Racing.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -57,8 +57,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "DB2E84361AAD338D0009E321"
             BuildableName = "Car Racing.app"
-            BlueprintName = "Car Racing Challenge"
-            ReferencedContainer = "container:Car Racing Challenge.xcodeproj">
+            BlueprintName = "Car Racing"
+            ReferencedContainer = "container:Car Racing.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -76,8 +76,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "DB2E84361AAD338D0009E321"
             BuildableName = "Car Racing.app"
-            BlueprintName = "Car Racing Challenge"
-            ReferencedContainer = "container:Car Racing Challenge.xcodeproj">
+            BlueprintName = "Car Racing"
+            ReferencedContainer = "container:Car Racing.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
