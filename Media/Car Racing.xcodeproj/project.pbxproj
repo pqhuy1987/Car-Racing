@@ -46,7 +46,6 @@
 		DB3D62691ACE51C7001BC9D9 /* ConfigsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB3D62681ACE51C7001BC9D9 /* ConfigsView.swift */; };
 		DB525E7F1ABDF19F00959D26 /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB525E7E1ABDF19F00959D26 /* Fonts.swift */; };
 		DB525E811ABDF69900959D26 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB525E801ABDF69900959D26 /* MenuView.swift */; };
-		DB546E811ACBA35900D1D9F0 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB546E7F1ACBA34F00D1D9F0 /* StoreKit.framework */; };
 		DB5816D71AEC11AE003C72FC /* DeviceModel.m in Sources */ = {isa = PBXBuildFile; fileRef = DB5816D61AEC11AE003C72FC /* DeviceModel.m */; };
 		DB5E47F71ADF2B720029B8DD /* GameHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB5E47F61ADF2B720029B8DD /* GameHelper.swift */; };
 		DB5E47FB1ADF43260029B8DD /* Levels.plist in Resources */ = {isa = PBXBuildFile; fileRef = DB5E47FA1ADF43260029B8DD /* Levels.plist */; };
@@ -66,7 +65,6 @@
 		DB9E31841AD4DFB800C27087 /* Twitter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB9E31821AD4DFB200C27087 /* Twitter.framework */; };
 		DB9E31871AD4E1B400C27087 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB9E31851AD4E1AE00C27087 /* Accounts.framework */; };
 		DBB20A4B1ABE3D1C0050AA36 /* GameStatusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBB20A4A1ABE3D1C0050AA36 /* GameStatusView.swift */; };
-		DBB20A4D1ABE5BA20050AA36 /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBB20A4C1ABE5BA20050AA36 /* GameKit.framework */; };
 		DBCA18BF1AE0C3BA008E93A9 /* TouchAreas.png in Resources */ = {isa = PBXBuildFile; fileRef = DBCA18BE1AE0C3BA008E93A9 /* TouchAreas.png */; };
 		DBD63E311AC7669100F3A3C3 /* Instructions.png in Resources */ = {isa = PBXBuildFile; fileRef = DBD63E301AC7669100F3A3C3 /* Instructions.png */; };
 		DBFBA0F61AC4B93F00BD98D7 /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBFBA0F41AC4B93700BD98D7 /* iAd.framework */; };
@@ -114,7 +112,6 @@
 		DB3D62681ACE51C7001BC9D9 /* ConfigsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfigsView.swift; sourceTree = "<group>"; };
 		DB525E7E1ABDF19F00959D26 /* Fonts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Fonts.swift; path = Fonts/Fonts.swift; sourceTree = "<group>"; };
 		DB525E801ABDF69900959D26 /* MenuView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
-		DB546E7F1ACBA34F00D1D9F0 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		DB5816D51AEC11AD003C72FC /* Car Racing Challenge-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Car Racing Challenge-Bridging-Header.h"; sourceTree = "<group>"; };
 		DB5816D61AEC11AE003C72FC /* DeviceModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DeviceModel.m; path = Extensions/DeviceModel.m; sourceTree = "<group>"; };
 		DB5816D81AEC12FB003C72FC /* DeviceModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = DeviceModel.h; path = Extensions/DeviceModel.h; sourceTree = "<group>"; };
@@ -136,7 +133,6 @@
 		DB9E31821AD4DFB200C27087 /* Twitter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Twitter.framework; path = System/Library/Frameworks/Twitter.framework; sourceTree = SDKROOT; };
 		DB9E31851AD4E1AE00C27087 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
 		DBB20A4A1ABE3D1C0050AA36 /* GameStatusView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameStatusView.swift; sourceTree = "<group>"; };
-		DBB20A4C1ABE5BA20050AA36 /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
 		DBCA18BE1AE0C3BA008E93A9 /* TouchAreas.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = TouchAreas.png; path = Images/TouchAreas.png; sourceTree = "<group>"; };
 		DBD63E301AC7669100F3A3C3 /* Instructions.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Instructions.png; path = Images/Instructions.png; sourceTree = "<group>"; };
 		DBFBA0F41AC4B93700BD98D7 /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
@@ -151,8 +147,6 @@
 				DB9E31871AD4E1B400C27087 /* Accounts.framework in Frameworks */,
 				DB9E31841AD4DFB800C27087 /* Twitter.framework in Frameworks */,
 				DB9E31801AD4D78C00C27087 /* Social.framework in Frameworks */,
-				DB546E811ACBA35900D1D9F0 /* StoreKit.framework in Frameworks */,
-				DBB20A4D1ABE5BA20050AA36 /* GameKit.framework in Frameworks */,
 				DB384C341AC0DA3500C2BB32 /* AVFoundation.framework in Frameworks */,
 				DBFBA0F61AC4B93F00BD98D7 /* iAd.framework in Frameworks */,
 			);
@@ -238,10 +232,8 @@
 				DB9E31851AD4E1AE00C27087 /* Accounts.framework */,
 				DB9E31821AD4DFB200C27087 /* Twitter.framework */,
 				DB9E317E1AD4D77500C27087 /* Social.framework */,
-				DB546E7F1ACBA34F00D1D9F0 /* StoreKit.framework */,
 				DBFBA0F41AC4B93700BD98D7 /* iAd.framework */,
 				DB384C321AC0DA3000C2BB32 /* AVFoundation.framework */,
-				DBB20A4C1ABE5BA20050AA36 /* GameKit.framework */,
 			);
 			name = Libs;
 			path = ..;
@@ -352,7 +344,10 @@
 						DevelopmentTeam = 7A3KSATNU7;
 						SystemCapabilities = {
 							com.apple.GameCenter = {
-								enabled = 1;
+								enabled = 0;
+							};
+							com.apple.InAppPurchase = {
+								enabled = 0;
 							};
 							com.apple.iCloud = {
 								enabled = 0;
